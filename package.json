@@ -1,30 +1,34 @@
 {
-  "name": "parcel-project-template",
+  "name": "team-project-ice-cream",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AleksPastukhov.github.io/parcel-project-template",
+  "homepage": "https://AleksPastukhov.github.io/team-project-ice-cream",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /team-project-ice-cream/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AleksPastukhov/parcel-project-template.git"
+    "url": "git+https://github.com/AleksPastukhov/team-project-ice-cream.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AleksPastukhov/parcel-project-template/issues"
+    "url": "https://github.com/AleksPastukhov/team-project-ice-cream/issues"
   },
   "dependencies": {
+    "jquery": "^3.6.1",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.0",
     "@parcel/transformer-sass": "^2.6.0",
+    "@parcel/transformer-webmanifest": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
+
